@@ -10,6 +10,9 @@ html{scroll-behavior: smooth;}
 p{
     margin: 0;
 }
+.navbar{
+    position: sticky;
+}
 .nav-item{
     font-size:18px;
     font-weight: bold;
@@ -56,12 +59,12 @@ p{
 }
 .cat1{
     background-color: coral;
-    margin-right: 10px;
-    padding-left: 20px;
+    margin-right: ;
+    padding-left: ;
 }
 .cat2{
     background-color: turquoise;
-    margin-right: 10px;
+    margin: 0 10px  ;
 }
 .cat3{
     background-color: hotpink;
@@ -69,6 +72,10 @@ p{
 .categories .col-4{
     padding: 0%;
 }
+.categories .col-4:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.356);
+}
+
 .categories h1{
     font-size: 30px;
 }
@@ -85,7 +92,7 @@ p{
 
 img:hover {
     animation: shake 0.5s;
-    animation-iteration-count: ;
+    
   }
   
   @keyframes shake {
