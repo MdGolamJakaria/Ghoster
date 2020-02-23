@@ -1,0 +1,110 @@
+html{scroll-behavior: smooth;}
+.row{
+    margin-bottom: 20px;
+}
+
+.top-header{
+    background-color: orange;
+    color: white;
+}
+p{
+    margin: 0;
+}
+.nav-item{
+    font-size:18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.slider-section
+{
+    background-color:#feeae9 ;
+    overflow: hidden;
+    padding: 10px 20px;
+    
+}
+.slider-text{
+    text-align: center;
+    
+}
+.slider-text h3{
+    text-transform: uppercase;
+}
+.slider-text p{
+    text-align: left;
+    text-transform: lowercase;
+}
+.slider-text h1{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.buy-now-button{
+    background-color: coral;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.buy-now-button:hover{
+    background-color: rgb(235, 75, 17);
+}
+.cat1, .cat2, .cat3{
+    color: white;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.cat1{
+    background-color: coral;
+    margin-right: 10px;
+    padding-left: 20px;
+}
+.cat2{
+    background-color: turquoise;
+    margin-right: 10px;
+}
+.cat3{
+    background-color: hotpink;
+}
+.categories .col-4{
+    padding: 0%;
+}
+.categories h1{
+    font-size: 30px;
+}
+.categories img{
+    width:200px;
+}
+.shoes-card{
+    padding: 0 0;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.35);
+}
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: ;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+#subscribe{
+    background-color:#feeae9;
+    height: 300px;
+}
+footer{
+    text-align: center;
+}
